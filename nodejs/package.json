@@ -1,0 +1,30 @@
+{
+  "name": "polling-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PohKaiBoon/polling-app-backend.git"
+  },
+  "keywords": [
+    "Polling",
+    "App"
+  ],
+  "author": "Poh Kai Boon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PohKaiBoon/polling-app-backend/issues"
+  },
+  "homepage": "https://github.com/PohKaiBoon/polling-app-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0"
+  }
+}
